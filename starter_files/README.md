@@ -19,7 +19,7 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 4. **Enable logging**: Although it can be done at deploy time with a check-box, the Python SDK for Azure runs code (`logs.py`) to enable "Application Insights" and logging as usefull tools to detect errors or anomalies, and to visualize performance.
 
-5. Swagger documentation
+5. **Swagger documentation**: Swagger automatically generates the visual documentation of the ML model's endpoint to assist back end implementation and client side consuption.
 
 6. Consume model endpoints
 
@@ -50,10 +50,9 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 ![Logs Printed in Jupyter Notebook (click to see the image)](img/.png?raw=true)
 
-### Swagger Documentation
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+### Swagger documentation
+![Swagger documentation on localhost (click to see the image)](img/.png?raw=true)
+
 
 ### Consume model endpoints
 ![ (click to see the image)](img/.png?raw=true)

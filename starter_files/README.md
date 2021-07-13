@@ -15,9 +15,9 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 2. **Automated ML Experiment**: An Automated ML experiment uses the Bank Marketing datasest, a compute cluster (`Standard_DS12_v2`) and proper configuration to find and explain the best model.
 
-3. Deploy the best model
+3. **Deploy the best model**: In Azure ML Studio (on the "Model" tab of the AutoML run), the best model is deployed using Azure Container Instance (ACI) while enabling authentication to ship a model into production.
 
-4. Enable logging
+4. **Enable logging**: Although it can be done at deploy time with a check-box, the Python SDK for Azure runs code (`logs.py`) to enable "Application Insights" and logging as usefull tools to detect errors ot anomalies, and visualize performance.
 
 5. Swagger Documentation
 
@@ -39,14 +39,16 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 
 ### Deploy the best model
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Model's Deploy Parameters (click to see the image)](img/.png?raw=true)
+
+![Model's Deploy Status (click to see the image)](img/.png?raw=true)
 
 ### Enable logging
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Application Insights at the Endpoint's Details (click to see the image)](img/.png?raw=true)
+
+![Application Insights (click to see the image)](img/.png?raw=true)
+
+![Logs Printed in Jupyter Notebook (click to see the image)](img/.png?raw=true)
 
 ### Swagger Documentation
 ![ (click to see the image)](img/.png?raw=true)

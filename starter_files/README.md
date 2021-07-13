@@ -13,13 +13,13 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 1. **Authentication**: Authentication is crucial for the continuous flow of operations. As users of the Udacity lab have no permission to create a service principal, they have to use an interactive authentication (see [Set up authentication](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-setup-authentication)).
 
-2. **Automated ML Experiment**: An Automated ML experiment uses the Bank Marketing datasest, a compute cluster (`Standard_DS12_v2`) and proper configuration to find and explain the best model.
+2. **Automated ML experiment**: An Automated ML experiment uses the Bank Marketing datasest, a compute cluster (`Standard_DS12_v2`) and proper configuration to find and explain the best model.
 
 3. **Deploy the best model**: In Azure ML Studio (on the "Model" tab of the AutoML run), the best model is deployed using Azure Container Instance (ACI) while enabling authentication to ship a model into production.
 
-4. **Enable logging**: Although it can be done at deploy time with a check-box, the Python SDK for Azure runs code (`logs.py`) to enable "Application Insights" and logging as usefull tools to detect errors ot anomalies, and visualize performance.
+4. **Enable logging**: Although it can be done at deploy time with a check-box, the Python SDK for Azure runs code (`logs.py`) to enable "Application Insights" and logging as usefull tools to detect errors or anomalies, and to visualize performance.
 
-5. Swagger Documentation
+5. Swagger documentation
 
 6. Consume model endpoints
 

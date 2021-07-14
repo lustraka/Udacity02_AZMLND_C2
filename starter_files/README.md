@@ -21,7 +21,7 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 5. **Swagger documentation**: Swagger automatically generates the visual documentation of the ML model's endpoint to assist back end implementation and client side consuption.
 
-6. Consume model endpoints
+6. **Consume model endpoints**: The endpoint provides a connection information (scoring URI, key) where the model as a web service responds to the authenticated HTTP requests using data in JSON format. Apache Benchmark command-line tool gives performance metrics of the deployed model.
 
 7. Create and publish a pipeline
 
@@ -55,9 +55,10 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 
 ### Consume model endpoints
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Endpoint's response to request (click to see the image)](img/.png?raw=true)
+
+![Apache Benchmark of the endpoint (click to see the image)](img/.png?raw=true)
+
 
 ### Create and publish a pipeline
 ![ (click to see the image)](img/.png?raw=true)

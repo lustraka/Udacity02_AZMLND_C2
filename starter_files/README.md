@@ -53,7 +53,6 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 ### Swagger documentation
 ![Swagger documentation on localhost (click to see the image)](img/.png?raw=true)
 
-
 ### Consume model endpoints
 ![Endpoint's response to request (click to see the image)](img/.png?raw=true)
 

@@ -101,4 +101,12 @@ end split
 :Consume the model endpoint via HTTP requests;
 :Create and publish a pipeline to automate the workflow>
 @enduml
+
+@startjson
+{
+"Username":"odl_user_151085@udacitylabs.onmicrosoft.com",
+"Password":"ytdm45CSM*d2",
+"Resource Group":"aml-quickstarts-151085"
+}
+@endjson
 -->

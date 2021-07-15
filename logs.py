@@ -5,7 +5,7 @@ from azureml.core.webservice import Webservice
 ws = Workspace.from_config()
 
 # Set with the deployment name
-name = "bank-marketing-studio-model"
+name = "bank-marketing-studio-deploy"
 
 # load existing web service
 service = Webservice(name=name, workspace=ws)

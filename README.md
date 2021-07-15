@@ -31,47 +31,50 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 > *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ### Authentication
-![Workspace (click to see the image)](img/.png?raw=true)
+![Workspace (click to see the image)](img/aml-10-workspace.png?raw=true)
 
 ### Automated ML Experiment
-![Registered Datasets (click to see the image)](img/.png?raw=true)
+![Registered Datasets (click to see the image)](img/aml-21-dataset.png?raw=true)
 
-![Completed Experiment (click to see the image)](img/.png?raw=true)
+![Completed Experiment (click to see the image)](img/aml-22-completed-experiment.png?raw=true)
 
-![The Best Model (click to see the image)](img/.png?raw=true)
+![The Best Model (click to see the image)](img/aml-23-best-model-details.png?raw=true)
 
 
 ### Deploy the best model
-![Model's Deploy Parameters (click to see the image)](img/.png?raw=true)
+![Model's Deploy Parameters (click to see the image)](img/aml-31-model-deploy-param.png?raw=true)
 
-![Model's Deploy Status (click to see the image)](img/.png?raw=true)
+![Model's Deploy Status (click to see the image)](img/aml-32-model-deploy-status.png?raw=true)
 
 ### Enable logging
-![Application Insights at the Endpoint's Details (click to see the image)](img/.png?raw=true)
+![Application Insights at the Endpoint's Details (click to see the image)](img/aml-41-insights-enabled.png?raw=true)
 
-![Application Insights (click to see the image)](img/.png?raw=true)
+![Application Insights (click to see the image)](img/aml-42-insights-status.png?raw=true)
 
-![Logs Printed in Jupyter Notebook (click to see the image)](img/.png?raw=true)
+![Logs Printed in Jupyter Notebook (click to see the image)](img/aml-43-logs-from-bash.png?raw=true)
 
 ### Swagger documentation
-![Swagger documentation on localhost (click to see the image)](img/.png?raw=true)
+![Swagger documentation on localhost (click to see the image)](img/aml-50-swagger-doc.png?raw=true)
 
 ### Consume model endpoints
-![Endpoint's response to request (click to see the image)](img/.png?raw=true)
+![Endpoint's response to request (click to see the image)](img/aml-61-endpoint-response.png?raw=true)
 
-![Apache Benchmark of the endpoint (click to see the image)](img/.png?raw=true)
+![Apache Benchmark of the endpoint (click to see the image)](img/aml-62-apache-benchmark.png?raw=true)
 
 
 ### Create and publish a pipeline
-![Pipeline Created (click to see the image)](img/.png?raw=true)
-![Pipeline Endpoint (click to see the image)](img/.png?raw=true)
-![Bank Marketing Dataset (click to see the image)](img/.png?raw=true)
-![Published Pipeline (click to see the image)](img/.png?raw=true)
-![RunDetails Widget (click to see the image)](img/.png?raw=true)
-![Scheduled Run (click to see the image)](img/.png?raw=true)
+![Pipeline Created (click to see the image)](img/aml-71-pipeline-created.png?raw=true)
+
+![Pipeline Endpoint (click to see the image)](img/aml-72-pipeline-endpoint.png?raw=true)
+
+![Canvas With Overview (click to see the image)](img/aml-73-canvas-with-overview.png?raw=true)
+
+![RunDetails Widget (click to see the image)](img/aml-74-rundetails-widget.png?raw=true)
+
+![Pipeline in Studio (click to see the image)](img/.aml-75-pipeline-in-studiopng?raw=true)
 
 ### Documentation
-[The MLOps Screencast]() shows working deployed ML model endpoint, deployed pipeline, available AutoML model and sucessful API requests to the endpoint with a JSON payload.
+[The MLOps Screencast](https://www.loom.com/share/3b1e24a350c84f9fbd401f28bf0a8421?sharedAppSource=personal_library) shows working deployed ML model endpoint, deployed pipeline, available AutoML model and sucessful API requests to the endpoint with a JSON payload.
 
 ## Standout Suggestions
 > *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
@@ -79,11 +82,10 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 ## References
 + The Bank Marketing dataset : [https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
 
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+<!--
+
 ![ (click to see the image)](img/.png?raw=true)
 
-<!--
 @startuml
 :Set up secure authentication;
 split

@@ -71,7 +71,7 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 ![RunDetails Widget (click to see the image)](img/aml-74-rundetails-widget.png?raw=true)
 
-![Pipeline in Studio (click to see the image)](img/.aml-75-pipeline-in-studiopng?raw=true)
+![Pipeline in Studio (click to see the image)](img/aml-75-pipeline-in-studio.png?raw=true)
 
 ### Documentation
 [The MLOps Screencast](https://www.loom.com/share/3b1e24a350c84f9fbd401f28bf0a8421?sharedAppSource=personal_library) shows working deployed ML model endpoint, deployed pipeline, available AutoML model and sucessful API requests to the endpoint with a JSON payload.

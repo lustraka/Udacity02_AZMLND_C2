@@ -6,7 +6,7 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 ## Architectural Diagram
 > *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
-![MLOps Architecture (click to see the image)](http://www.plantuml.com/plantuml/png/BOunZcen40Hpdw93U4U07_0tMsc940SOx05cyHjRTXk9sw-HI5lLgZfqIkDOSzYTb1WLNUDe2XcygzEYq8hlGw_P67RByktK9f7sr6K96tC8ibnGMtbQqeJB2-SaqVZQVcwGcvY_3UrfKITg7grAdlShghRLI4qJLq_uc4wQDH8obr5paGJ1b_W3HsaFfVaDIIXT6JOIPxF45wp32n6RlSiphgM1zxdEkb-DtFuBktDN_1yigr0JZZzWGLA-ArmdhRXe9zQIDE_3GJsDDVy1)
+![MLOps Architecture (click to see the image)](http://www.plantuml.com/plantuml/png/NP1DRXin34RtSuflQVi8Jb4a_G4Qe04293a0HwB7h3MKAb4svlRb38mkiYNU8v_qs8ogzJaDnpSsz8B6eLS6TJkpcWGooVemj9B4XkFXyAp6bOB9bG-7OISAGg8HfUQhH8uO5tn42cBB_gw19X9TBzIh17PKD4YXvFe9XUiiPXmTPutOb1LE75prIIyfKmJX6-a5BrGlRA8J8Xarjc57mPifB906pOPGPIrFEEKAE_lKw_xuklsNuVZH64_Tyan-4o-_OHcHRQrGTfenSZFCEN9w68u_sAyld-PR5YkDYP7oD7cDep-rzSeRoXfB5ZKylJuZvj1dLjk-4hkh4DvkD4rSzsvzpwxDctPV_bzUoL_lxw-e_BVxyRRYbSbu2oXzJDBE81GfdBRy3Bg_RLjuo_LoIldsTNZqhNrE_m00)
 
 ## Key Steps
 > *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
@@ -23,12 +23,15 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 6. **Consume model endpoints**: The endpoint provides a connection information (scoring URI, key) where the model as a web service responds to the authenticated HTTP requests using data in JSON format. Apache Benchmark command-line tool gives performance metrics of the deployed model.
 
-7. Create and publish a pipeline
+7. **Create and publish a pipeline**: An ML Pipeline automates a machine learining workflow. The published pipeline allows external services to interact with it so they can produce work faster and more efficient.
 
-8. Documentation
+8. **Documentation**: The screenshots illustrate key states of the project. The screencast shows the results of machine learning operationalization.
 
-## Screen Recording
+## Screenshots And Screen Recording
 > *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+### Authentication
+![Workspace (click to see the image)](img/.png?raw=true)
 
 ### Automated ML Experiment
 ![Registered Datasets (click to see the image)](img/.png?raw=true)
@@ -60,14 +63,15 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 
 ### Create and publish a pipeline
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Pipeline Created (click to see the image)](img/.png?raw=true)
+![Pipeline Endpoint (click to see the image)](img/.png?raw=true)
+![Bank Marketing Dataset (click to see the image)](img/.png?raw=true)
+![Published Pipeline (click to see the image)](img/.png?raw=true)
+![RunDetails Widget (click to see the image)](img/.png?raw=true)
+![Scheduled Run (click to see the image)](img/.png?raw=true)
 
 ### Documentation
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+[The MLOps Screencast]() shows working deployed ML model endpoint, deployed pipeline, available AutoML model and sucessful API requests to the endpoint with a JSON payload.
 
 ## Standout Suggestions
 > *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
@@ -92,5 +96,9 @@ end split
 :Select and upload a Bank Marketing dataset
 (accuracy is not critical for this project)<
 :Use Automated ML to determine the best model;
+:Deploy the best model and enable logging;
+:Ensure the endpoint API documentation (via Swagger);
+:Consume the model endpoint via HTTP requests;
+:Create and publish a pipeline to automate the workflow>
 @enduml
 -->

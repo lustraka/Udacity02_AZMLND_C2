@@ -13,15 +13,15 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 1. **Authentication**: Authentication is crucial for the continuous flow of operations. As users of the Udacity lab have no permission to create a service principal, they have to use an interactive authentication (see [Set up authentication](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-setup-authentication)).
 
-2. **Automated ML Experiment**: An Automated ML experiment uses the Bank Marketing datasest, a compute cluster (`Standard_DS12_v2`) and proper configuration to find and explain the best model.
+2. **Automated ML experiment**: An Automated ML experiment uses the Bank Marketing datasest, a compute cluster (`Standard_DS12_v2`) and proper configuration to find and explain the best model.
 
-3. Deploy the best model
+3. **Deploy the best model**: In Azure ML Studio (on the "Model" tab of the AutoML run), the best model is deployed using Azure Container Instance (ACI) while enabling authentication to ship a model into production.
 
-4. Enable logging
+4. **Enable logging**: Although it can be done at deploy time with a check-box, the Python SDK for Azure runs code (`logs.py`) to enable "Application Insights" and logging as usefull tools to detect errors or anomalies, and to visualize performance.
 
-5. Swagger Documentation
+5. **Swagger documentation**: Swagger automatically generates the visual documentation of the ML model's endpoint to assist back end implementation and client side consuption.
 
-6. Consume model endpoints
+6. **Consume model endpoints**: The endpoint provides a connection information (scoring URI, key) where the model as a web service responds to the authenticated HTTP requests using data in JSON format. Apache Benchmark command-line tool gives performance metrics of the deployed model.
 
 7. Create and publish a pipeline
 
@@ -39,24 +39,25 @@ This project is a part of the Udacity Machine Learning Engineer with Microsoft A
 
 
 ### Deploy the best model
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Model's Deploy Parameters (click to see the image)](img/.png?raw=true)
+
+![Model's Deploy Status (click to see the image)](img/.png?raw=true)
 
 ### Enable logging
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Application Insights at the Endpoint's Details (click to see the image)](img/.png?raw=true)
 
-### Swagger Documentation
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Application Insights (click to see the image)](img/.png?raw=true)
+
+![Logs Printed in Jupyter Notebook (click to see the image)](img/.png?raw=true)
+
+### Swagger documentation
+![Swagger documentation on localhost (click to see the image)](img/.png?raw=true)
 
 ### Consume model endpoints
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
-![ (click to see the image)](img/.png?raw=true)
+![Endpoint's response to request (click to see the image)](img/.png?raw=true)
+
+![Apache Benchmark of the endpoint (click to see the image)](img/.png?raw=true)
+
 
 ### Create and publish a pipeline
 ![ (click to see the image)](img/.png?raw=true)
